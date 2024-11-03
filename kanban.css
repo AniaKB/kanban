@@ -52,7 +52,9 @@
 }
 
 body {
-  background-image: url("Phyrexian.gif");
+  background-image: url("Phyrexian.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .task {
