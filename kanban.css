@@ -15,10 +15,12 @@
 
 .kanban-heading-text {
   font-size: 1.8rem;
-  background-color: tomato;
+  background-color: rgb(228, 180, 252);
   padding: 0.8rem 1.7rem;
-  border-radius: 0.5rem;
   margin: 1rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .kanban-board {
@@ -34,10 +36,11 @@
   min-width: 14rem;
   min-height: 4.5rem;
   border-radius: 0.3rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 #todo {
-  background-color: #ffdce3;
+  background-color: #ffbecb;
 }
 
 #inprogress {
@@ -45,11 +48,11 @@
 }
 
 #done {
-  background-color: #7ba87b;
+  background-color: #c1d99b;
 }
 
 body {
-  background-color: rgb(54, 32, 34);
+  background-image: url("Phyrexian.gif");
 }
 
 .task {
